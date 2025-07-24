@@ -76,7 +76,7 @@ NRF52 PRO MICRO PIN ASSIGNMENT
 // WIRE IC AND IIC PINS
 #define WIRE_INTERFACES_COUNT 1
 
-#define PIN_WIRE_SDA (32 + 4) // P1.04
+#define PIN_WIRE_SDA (32 + 0) // P1.00
 #define PIN_WIRE_SCL (0 + 11) // P0.11
 
 // LED
@@ -87,7 +87,7 @@ NRF52 PRO MICRO PIN ASSIGNMENT
 #define LED_STATE_ON 1 // State when LED is lit
 
 // Button
-#define BUTTON_PIN (32 + 0) // P1.00
+#define BUTTON_PIN (32 + 4) // P1.04
 
 // GPS
 #define PIN_GPS_TX (0 + 22) // P0.22
